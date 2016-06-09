@@ -1,0 +1,6 @@
+name: AviFix
+description: A fix
+main: ${plugin.mainClass}
+version: ${project.version}-${git.commit.id.abbrev}
+authors: [The Avicus Network]
+website: https://github.com/Avicus/Atlas
