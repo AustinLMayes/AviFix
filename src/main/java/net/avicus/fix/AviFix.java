@@ -21,7 +21,7 @@ public class AviFix extends JavaPlugin implements Listener {
 
     @EventHandler
     public void kick(PlayerPreLoginEvent event) {
-        event.disallow(PlayerPreLoginEvent.Result.KICK_OTHER, ChatColor.RED + "Avicus is currently experiencing major server issues. \n" + ChatColor.GOLD + "You may follow updates on our twitter: " + ChatColor.AQUA + "@AvicusNetwork");
+        event.disallow(PlayerPreLoginEvent.Result.KICK_OTHER, ChatColor.RED + "Avicus is currently experiencing major server issues. \n" + ChatColor.GOLD + "You may follow updates on our twitter: " + ChatColor.AQUA + "@AvicusNetwork \n" + ChatColor.BLUE + "www.avicus.net");
     }
 
 }
